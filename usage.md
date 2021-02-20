@@ -3,13 +3,13 @@
 Code:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK/1.0.0/webjssdk.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK/webjssdk.js"></script>
 ```
 
 Code (min):
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK/1.0.0/webjssdk.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK/webjssdk.min.js"></script>
 ```
 
 ## Better Dialogs
