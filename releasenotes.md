@@ -1,5 +1,5 @@
-# WebJS SDK 1.0.0
+# WebJS SDK 1.0.1
 
-Added:
+Fixed:
 
-* Better Dialogs
+* Fix typo.

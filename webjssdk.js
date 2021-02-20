@@ -4,7 +4,7 @@ __      __      _        _  ___        ___  ___   _  __
  \ \/\/ / / -_)|  _ \| || |\__ \      \__ \| |) ||   < 
   \_/\_/  \___||____/ \__/ |___/      |___/|___/ |_|\_\
 
-              WebJS SDK 1.0.0 by C1200
+              WebJS SDK 1.0.1 by C1200
 */
 
 // Better Dialogs
@@ -102,6 +102,6 @@ window.onload = function() {
 
     var styles = document.createElement("link");
     styles.setAttribute("rel", "stylesheet");
-    styles.setAttribute("href", "https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK@1.0.0/src/styles.css");
+    styles.setAttribute("href", "https://cdn.jsdelivr.net/gh/C1200/WebJS-SDK@1.0.1/src/styles.css");
     document.head.appendChild(styles);
 }
