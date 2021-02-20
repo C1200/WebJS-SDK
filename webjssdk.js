@@ -31,7 +31,7 @@ function betterdialogs_prompt(message, _default, callback) {
     input.onkeypress = (ev) => { if (ev.key == "Enter") { modal.childNodes.forEach((child) => { modal.removeChild(child); }); modal.setAttribute("style", "display:none"); callback(input.value); } }
     modalcontent.appendChild(input);
 
-    var okbtn = document.createAttribute("button");
+    var okbtn = document.createElement("button");
     okbtn.setAttribute("class", "webjsmodalbutton");
     okbtn.innerHTML = "OK";
     okbtn.onclick = () => { modal.childNodes.forEach((child) => { modal.removeChild(child); }); modal.setAttribute("style", "display:none"); callback(input.value); }
